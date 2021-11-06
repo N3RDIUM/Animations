@@ -34,9 +34,12 @@ html, body {
     background-color: #f1f1f1;
     height: 15%;
     align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 .header_text{
     text-align: center;
+    width: 90%;
 }
 
 .title{
@@ -123,3 +126,26 @@ html, body {
     background-color: white;
     display: table;
 }
+
+.header_back{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: min-content;
+    height: 80%;
+    width: 10%;
+    background-color: #008282;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: category_unhover 1s;
+    align-self: center;
+    justify-self: center;
+    color: #ffffff;
+}
+
+.header_back:hover{
+    animation: category_hover 1s;
+    background-color: #003737;
+}
+
