@@ -5,6 +5,7 @@ function setup(){
     gsap.to(angle,{
         duration: 1.5,
         angle: 360,
+        angle_white: -360,
         repeat: -1
     })
 }
@@ -18,11 +19,12 @@ function draw(){
     fill(0)
     rect(-10,-10, 20, 20)
     angleMode(RADIANS)
+
     pop()
     push()
     angleMode(DEGREES)
     translate(50,50)
-    rotate(angle.angle)
+    rotate(angle.angle_white)
     fill(255)
     rect(-5,-5, 10, 10)
     angleMode(RADIANS)

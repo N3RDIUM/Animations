@@ -94,3 +94,32 @@ html, body {
     color: #ffffff;
     margin-right: 10%;
 }
+
+.animation_text{
+    align-self: center;
+    justify-self: center;
+    color: #ffffff;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:1%;
+}
+
+.animation_image{
+    height:100px;
+    width:100px;
+}
+
+.animation{
+    margin: 2%;
+    background-color: #008282;
+    border-radius: 10px;
+    width: min-content;
+    text-align: center;
+    display: table-cell;
+    border: 3px solid white;
+}
+
+.animations{
+    background-color: white;
+    display: table;
+}
