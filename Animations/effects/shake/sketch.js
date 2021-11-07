@@ -21,7 +21,15 @@ function draw(){
     pop()
     if(frameCount % 120 == 0){
         tween.pause()
-        shake.shake = -10
+        tween = gsap.to(shake,{
+            duration: 0.05,
+            shake: 0,
+        })
+        tween = gsap.to(shake,{
+            duration: 0.05,
+            shake: -10,
+            delay: 0.95
+        })
         tween = gsap.to(shake,{
             duration: 0.05,
             shake: 10,
