@@ -122,7 +122,8 @@ html, body {
     margin: 2%;
     background-color: #008282;
     border-radius: 10px;
-    width: max-content;
+    width: fit-content;
+    height: fit-content;
     text-align: center;
     display: table-cell;
     border: 3px solid white;
