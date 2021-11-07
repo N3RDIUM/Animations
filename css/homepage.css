@@ -39,6 +39,12 @@ html, body {
 }
 .header_text{
     text-align: center;
+    align-self: center;
+    width: 100%;
+}
+
+.header_text_category{
+    text-align: center;
     width: 90%;
 }
 
